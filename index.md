@@ -62,35 +62,35 @@ Find the git repo(s), by the given name. You can do this, even without cloning a
 ./rex.sh find samlsso
 ```
 
-Update metadata related to all Identity Server repos. It's better to do an update at least weekly, to find the most up-to-date search results. 
+Updates metadata related to all Identity Server repos. Usually you do not need to do it manually, the tool detects any new updates and automatically updates the indexes.
 
 ```markdown
 ./rex.sh update-index
 ```
 
-List the git repo(s), along with all the corresponding updates since IS 5.2.0.
+Lists the git repo(s), along with all the corresponding updates since IS 5.2.0.
 
 ```markdown
 ./rex.sh updates
 ```
 
-List the git repo(s), along with all the updates since IS 5.2.0 for the given component name (jar file name without version).
+Lists the git repo(s), along with all the updates since IS 5.2.0 for the given component name (jar file name without version).
 
 ```markdown
 ./rex.sh updates -c  org.wso2.carbon.identity.recovery.ui
 ```
 
-List the updates along with all the components since IS 5.2.0 for the given repo.
+Lists the updates along with all the components since IS 5.2.0 for the given repo.
 
 ```markdown
 ./rex.sh updates -r carbon-identity-framework
 ```
-List the updates by all the product versions.
+Lists the updates by all the product versions.
 
 ```markdown
 ./rex.sh updates -p
 ```
-List the updates by the given product version.
+Lists the updates by the given product version.
 
 ```markdown
 ./rex.sh updates -p IS_5.2.0
