@@ -10,7 +10,6 @@ WSO2 Identity Server is 100% Open Source!. We maintain product source code under
 ```markdown
 :\> wget https://github.com/prabath/wso2is-repo-explorer/raw/master/rex.sh
 :\> chmod +x rex.sh
-
 ```
 
 ### Usage 
