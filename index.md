@@ -1,4 +1,4 @@
-## Welcome to GitHub Pages
+## Repo Explorer (rEx) for Identity Server
 
 You can use the [editor on GitHub](https://github.com/prabath/rexis.github.io/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
 
