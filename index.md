@@ -12,6 +12,8 @@
 wget https://github.com/prabath/wso2is-repo-explorer/raw/master/rex.sh
 chmod +x rex.sh
 ```
+Also make sure that you have Internet access, while running the tool.
+
 ### Updates
 
 There are three components need to be updated. The rex.sh - will have minimal updates. Any changes to the core of the tool would require updating the Docker image. The indexes will get updated every four hours.
