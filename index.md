@@ -18,6 +18,10 @@ There are three components need to be updated. The rex.sh - will have minimal up
 
 The tool will detect all the updates and will automatically install them.
 
+### Source Code
+
+We welcome contribution from the community. Please check the source code at [https://github.com/prabath/wso2is-repo-explorer](https://github.com/prabath/wso2is-repo-explorer)
+
 ### Usage 
 
 Clone all Identity Server related repositories. This is not a required step to run other commands.
@@ -83,7 +87,3 @@ List the updates by the given product version.
 ```markdown
 ./rex.sh updates -p IS_5.2.0
 ```
-### Source Code
-
-We welcome contribution from the community. Please check the source code at [https://github.com/prabath/wso2is-repo-explorer](https://github.com/prabath/wso2is-repo-explorer)
-
