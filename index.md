@@ -7,9 +7,9 @@ WSO2 Identity Server is 100% Open Source!. We maintain product source code under
 * **Step:1** This relies on Docker, so make sure you have Docker running in your local environment.
 
 * **Step:2** Copy rex.sh to a directory where you want to maintain Identity Server git repositories. Alway better to keep this readonly. 
-```javascript
-\> wget https://github.com/prabath/wso2is-repo-explorer/raw/master/rex.sh
-\> chmod +x rex.sh
+```markdown
+:\> wget https://github.com/prabath/wso2is-repo-explorer/raw/master/rex.sh
+:\> chmod +x rex.sh
 ```
 
 Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
