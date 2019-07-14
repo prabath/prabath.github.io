@@ -5,7 +5,7 @@
 
 ### Initial Setup
 
-**Step:1** This relies on Docker, so make sure you have Docker running in your local environment.
+**Step:1** The tool relies on Docker, so make sure you have Docker running in your local environment.
 
 **Step:2** Copy rex.sh to a directory where you want to maintain Identity Server git repositories. Alway better to keep this readonly. 
 ```markdown
