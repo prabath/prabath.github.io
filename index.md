@@ -85,5 +85,5 @@ List the updates by the given product version.
 ```
 ### Source Code
 
-We welcome contribution from the community. Please check the source code at https://github.com/prabath/wso2is-repo-explorer
+We welcome contribution from the community. Please check the source code at [https://github.com/prabath/wso2is-repo-explorer](https://github.com/prabath/wso2is-repo-explorer)
 
