@@ -7,9 +7,9 @@
 
 ## Setup
 
-**Step:1** The tool relies on Docker, so make sure you have Docker running in your local environment.
+*Step:1* The tool relies on Docker, so make sure you have Docker running in your local environment.
 
-**Step:2** Copy rex.sh to a directory where you want to maintain Identity Server git repositories. Alway better to keep this readonly. 
+*Step:2* Copy rex.sh to a directory where you want to maintain Identity Server git repositories. Alway better to keep this readonly. 
 ```markdown
 wget https://github.com/prabath/wso2is-repo-explorer/raw/master/rex.sh
 chmod +x rex.sh
