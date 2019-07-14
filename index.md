@@ -12,7 +12,7 @@
 wget https://github.com/prabath/wso2is-repo-explorer/raw/master/rex.sh
 chmod +x rex.sh
 ```
-Also make sure that you have Internet access, while running the tool.
+Also please make sure that you have Internet access, while running the tool.
 
 ### Updates
 
