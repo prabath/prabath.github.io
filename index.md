@@ -4,9 +4,9 @@ WSO2 Identity Server is 100% Open Source!. We maintain product source code under
 
 ### Initial Setup
 
-* **Step:1** This relies on Docker, so make sure you have Docker running in your local environment.
+**Step:1** This relies on Docker, so make sure you have Docker running in your local environment.
 
-* **Step:2** Copy rex.sh to a directory where you want to maintain Identity Server git repositories. Alway better to keep this readonly. 
+**Step:2** Copy rex.sh to a directory where you want to maintain Identity Server git repositories. Alway better to keep this readonly. 
 ```markdown
 :\> wget https://github.com/prabath/wso2is-repo-explorer/raw/master/rex.sh
 :\> chmod +x rex.sh
@@ -15,23 +15,23 @@ WSO2 Identity Server is 100% Open Source!. We maintain product source code under
 
 ### Usage 
 
-* **Clone** all Identity Server related repositories. This is not a required step to run other commands.
+**Clone** all Identity Server related repositories. This is not a required step to run other commands.
 
 ```markdown
 \> ./rex.sh clone
 ```
-* **List** out all Identity Server related repositories. You can do this, even without cloning all repos.
+**List** out all Identity Server related repositories. You can do this, even without cloning all repos.
 
 ```markdown
 \> ./rex.sh list
 ```
-* **Update** all Identity Server related repositories. If there are any new repos, those will be cloned. 
+**Update** all Identity Server related repositories. If there are any new repos, those will be cloned. 
 
 ```markdown
 \> ./rex.sh update
 ```
 
-* **Find** the git repo(s), by the given name. You can do this, even without cloning all repos. The -j option will narrow down the search results for the given jar file name (without version)
+**Find** the git repo(s), by the given name. You can do this, even without cloning all repos. The -j option will narrow down the search results for the given jar file name (without version)
 
 ```markdown
 \> ./rex.sh find org.wso2.carbon.identity.authenticator.mutualssl
@@ -45,35 +45,35 @@ WSO2 Identity Server is 100% Open Source!. We maintain product source code under
 \> ./rex.sh find samlsso
 ```
 
-* **Update** metadata related to all Identity Server repos. It's better to do an update at least weekly, to find the most up-to-date search results. 
+**Update** metadata related to all Identity Server repos. It's better to do an update at least weekly, to find the most up-to-date search results. 
 
 ```markdown
 \> ./rex.sh update-index
 ```
 
-* **List** the git repo(s), along with all the corresponding updates since IS 5.2.0.
+**List** the git repo(s), along with all the corresponding updates since IS 5.2.0.
 
 ```markdown
 \> ./rex.sh updates
 ```
 
-* **List** the git repo(s), along with all the updates since IS 5.2.0 for the given Jar file.
+**List** the git repo(s), along with all the updates since IS 5.2.0 for the given Jar file.
 
 ```markdown
 \> ./rex.sh updates -c  org.wso2.carbon.identity.recovery.ui
 ```
 
-* **List** the updates along with all the components since IS 5.2.0 for the given repo.
+**List** the updates along with all the components since IS 5.2.0 for the given repo.
 
 ```markdown
 \> ./rex.sh updates -r carbon-identity-framework
 ```
-* **List** the updates by all the product versions.
+**List** the updates by all the product versions.
 
 ```markdown
 \> ./rex.sh updates -p
 ```
-* **List** the updates by the given product version.
+**List** the updates by the given product version.
 
 ```markdown
 \> ./rex.sh updates -p IS_5.2.0
@@ -81,25 +81,25 @@ WSO2 Identity Server is 100% Open Source!. We maintain product source code under
 
 ### TODOs
 
-* **Find** the git repo, by the given name and the product version.
+**Find** the git repo, by the given name and the product version.
 
 ```markdown
 \> ./rex.sh find 5.8.0/org.wso2.carbon.identity.authenticator.mutualssl
 ```
 
-* **List** out all Identity Server repos related to the provided product version.
+**List** out all Identity Server repos related to the provided product version.
 
 ```markdown
 \> ./rex.sh list version 5.8.0
 ```
 
-* **Clone** all Identity Server repos related to the provided product version.
+**Clone** all Identity Server repos related to the provided product version.
 
 ```markdown
 \> ./rex.sh clone version 5.8.0
 ```
 
-* Spin up the web console
+**Spin** up the web console
 
 ```markdown
 \> ./rex.sh serve
