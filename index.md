@@ -44,13 +44,21 @@ Find the git repo(s), by the given name. You can do this, even without cloning a
 
 ```markdown
 ./rex.sh find org.wso2.carbon.identity.authenticator.mutualssl
+```
 
+```markdown
 ./rex.sh find -c org.wso2.carbon.identity.authenticator.mutualssl
+```
 
+```markdown
 ./rex.sh find OAuth2TokenValidator
+```
 
+```markdown
 ./rex.sh find OAuth2TokenValidator.java
+```
 
+```markdown
 ./rex.sh find samlsso
 ```
 
