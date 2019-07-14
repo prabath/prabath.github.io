@@ -40,7 +40,7 @@ Update all Identity Server related repositories. If there are any new repos, tho
 ./rex.sh update
 ```
 
-Find the git repo(s), by the given name. You can do this, even without cloning all repos. The -j option will narrow down the search results for the given jar file name (without version)
+Find the git repo(s), by the given name. You can do this, even without cloning all repos. The -c option will narrow down the search results for the given component name (or jar file name without version)
 
 ```markdown
 ./rex.sh find org.wso2.carbon.identity.authenticator.mutualssl
@@ -74,7 +74,7 @@ List the git repo(s), along with all the corresponding updates since IS 5.2.0.
 ./rex.sh updates
 ```
 
-List the git repo(s), along with all the updates since IS 5.2.0 for the given Jar file.
+List the git repo(s), along with all the updates since IS 5.2.0 for the given component name (jar file name without version).
 
 ```markdown
 ./rex.sh updates -c  org.wso2.carbon.identity.recovery.ui
