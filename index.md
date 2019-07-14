@@ -85,5 +85,5 @@ List the updates by the given product version.
 ### Source Code
 ```markdown
 https://github.com/prabath/wso2is-repo-explorer
-```markdown
+```
 
