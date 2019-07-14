@@ -13,7 +13,9 @@ WSO2 Identity Server is 100% Open Source!. We maintain product source code under
 ```
 ### Updates
 
-The tool will detect any updates and will automatically install them.
+There are three components need to be updated. The rex.sh - will have minimal updates. Any changes to the core of the tool would require updating the Docker image. The indexes will get updated every four hours.
+
+The tool will detect all the updates and will automatically install them.
 
 ### Usage 
 
