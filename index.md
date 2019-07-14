@@ -22,6 +22,10 @@ There are three components need to be updated. The rex.sh - will have minimal up
 
 The tool will detect all the updates and will automatically install them.
 
+```markdown
+Last indexed at Sun Jul 14 13:53:30 PST 2019
+```
+
 ## Community
 
 rEx is an open source project (under Apache 2.0 lincense) and any contributions from the wider community is much appreciated. We welcome contribution from the community. Please check the source code at [https://github.com/prabath/wso2is-repo-explorer](https://github.com/prabath/wso2is-repo-explorer)
