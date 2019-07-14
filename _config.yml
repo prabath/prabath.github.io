@@ -1,5 +1,5 @@
 theme: jekyll-theme-slate
-title: rEx
+title: rEx 
 description: Repo Explorer (rEx) for Identity Server (IS)
 github:
   is_project_page: false
