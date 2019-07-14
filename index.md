@@ -10,34 +10,97 @@ WSO2 Identity Server is 100% Open Source!. We maintain product source code under
 ```markdown
 :\> wget https://github.com/prabath/wso2is-repo-explorer/raw/master/rex.sh
 :\> chmod +x rex.sh
+
 ```
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+### Usage 
+
+* **Clone** all Identity Server related repositories. This is not a required step to run other commands.
 
 ```markdown
-Syntax highlighted code block
+\> ./rex.sh clone
+```
+* **List** out all Identity Server related repositories. You can do this, even without cloning all repos.
 
-# Header 1
-## Header 2
-### Header 3
+```markdown
+\> ./rex.sh list
+```
+* **Update** all Identity Server related repositories. If there are any new repos, those will be cloned. 
 
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
+```markdown
+\> ./rex.sh update
 ```
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+* **Find** the git repo(s), by the given name. You can do this, even without cloning all repos. The -j option will narrow down the search results for the given jar file name (without version)
 
-### Jekyll Themes
+```markdown
+\> ./rex.sh find org.wso2.carbon.identity.authenticator.mutualssl
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/prabath/rexis.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+\> ./rex.sh find -c org.wso2.carbon.identity.authenticator.mutualssl
 
-### Support or Contact
+\> ./rex.sh find OAuth2TokenValidator
 
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+\> ./rex.sh find OAuth2TokenValidator.java
+
+\> ./rex.sh find samlsso
+```
+
+* **Update** metadata related to all Identity Server repos. It's better to do an update at least weekly, to find the most up-to-date search results. 
+
+```markdown
+\> ./rex.sh update-index
+```
+
+* **List** the git repo(s), along with all the corresponding updates since IS 5.2.0.
+
+```markdown
+\> ./rex.sh updates
+```
+
+* **List** the git repo(s), along with all the updates since IS 5.2.0 for the given Jar file.
+
+```markdown
+\> ./rex.sh updates -c  org.wso2.carbon.identity.recovery.ui
+```
+
+* **List** the updates along with all the components since IS 5.2.0 for the given repo.
+
+```markdown
+\> ./rex.sh updates -r carbon-identity-framework
+```
+* **List** the updates by all the product versions.
+
+```markdown
+\> ./rex.sh updates -p
+```
+* **List** the updates by the given product version.
+
+```markdown
+\> ./rex.sh updates -p IS_5.2.0
+```
+
+### TODOs
+
+* **Find** the git repo, by the given name and the product version.
+
+```markdown
+\> ./rex.sh find 5.8.0/org.wso2.carbon.identity.authenticator.mutualssl
+```
+
+* **List** out all Identity Server repos related to the provided product version.
+
+```markdown
+\> ./rex.sh list version 5.8.0
+```
+
+* **Clone** all Identity Server repos related to the provided product version.
+
+```markdown
+\> ./rex.sh clone version 5.8.0
+```
+
+* Spin up the web console
+
+```markdown
+\> ./rex.sh serve
+```
