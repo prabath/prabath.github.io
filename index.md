@@ -3,7 +3,7 @@
 <img src="./image.png" width="640">
 
 
-### Initial Setup
+### Setup
 
 **Step:1** The tool relies on Docker, so make sure you have Docker running in your local environment.
 
@@ -18,9 +18,11 @@ There are three components need to be updated. The rex.sh - will have minimal up
 
 The tool will detect all the updates and will automatically install them.
 
-### Source Code
+### Community
 
-We welcome contribution from the community. Please check the source code at [https://github.com/prabath/wso2is-repo-explorer](https://github.com/prabath/wso2is-repo-explorer)
+rEx is an open source project (under Apache 2.0 lincense) and any contributions from the wider community is much appreciated. We welcome contribution from the community. Please check the source code at [https://github.com/prabath/wso2is-repo-explorer](https://github.com/prabath/wso2is-repo-explorer)
+
+Report any issues: [https://github.com/prabath/wso2is-repo-explorer/issues](https://github.com/prabath/wso2is-repo-explorer/issues)
 
 ### Usage 
 
