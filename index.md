@@ -24,23 +24,23 @@ We welcome contribution from the community. Please check the source code at [htt
 
 ### Usage 
 
-Clone all Identity Server related repositories. This is not a required step to run other commands.
+Clones all Identity Server related repositories. This is not a required step to run other commands.
 
 ```markdown
 ./rex.sh clone
 ```
-List out all Identity Server related repositories. You can do this, even without cloning all repos.
+Lists out all Identity Server related repositories. You can do this, even without cloning all repos.
 
 ```markdown
 ./rex.sh list
 ```
-Update all Identity Server related repositories. If there are any new repos, those will be cloned. 
+Updates all Identity Server related repositories. If there are any new repos, those will be cloned. 
 
 ```markdown
 ./rex.sh update
 ```
 
-Find the git repo(s), by the given name. You can do this, even without cloning all repos. The -c option will narrow down the search results for the given component name (or jar file name without version)
+Finds the git repo(s), by the given name. You can do this, even without cloning all repos. The -c option will narrow down the search results for the given component name (or jar file name without version)
 
 ```markdown
 ./rex.sh find org.wso2.carbon.identity.authenticator.mutualssl
