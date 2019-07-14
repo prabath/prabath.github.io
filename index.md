@@ -5,7 +5,7 @@
 <img src="./image.png" width="640">
 
 
-### Setup
+## Setup
 
 **Step:1** The tool relies on Docker, so make sure you have Docker running in your local environment.
 
@@ -16,19 +16,19 @@ chmod +x rex.sh
 ```
 Also please make sure that you have Internet access, while running the tool.
 
-### Updates
+## Updates
 
 There are three components need to be updated. The rex.sh - will have minimal updates. Any changes to the core of the tool would require updating the Docker image. The indexes will get updated every four hours.
 
 The tool will detect all the updates and will automatically install them.
 
-### Community
+## Community
 
 rEx is an open source project (under Apache 2.0 lincense) and any contributions from the wider community is much appreciated. We welcome contribution from the community. Please check the source code at [https://github.com/prabath/wso2is-repo-explorer](https://github.com/prabath/wso2is-repo-explorer)
 
 Report any issues: [https://github.com/prabath/wso2is-repo-explorer/issues](https://github.com/prabath/wso2is-repo-explorer/issues)
 
-### Usage 
+## Usage 
 
 Clones all Identity Server related repositories. This is not a required step to run other commands.
 
