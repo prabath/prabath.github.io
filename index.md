@@ -1,4 +1,4 @@
-WSO2 Identity Server is 100% Open Source!. The product maintains the source code under two GitHub organizations: wso2 and wso2-extensions. These two GitHub organizations carry code related to all WSO2 products, with hundreds of repositories. Sometimes it's hard to find, which jar file comes from which repo. If you would like to contribute to the product, please check this git repo explorer (rEx).
+[WSO2 Identity Server](https://wso2.com/identity-and-access-management/) is 100% Open Source!. The product maintains the source code under two GitHub organizations: wso2 and wso2-extensions. These two GitHub organizations carry code related to all WSO2 products, with hundreds of repositories. Sometimes it's hard to find, which jar file comes from which repo. If you would like to contribute to the product, please check this git repo explorer (rEx).
 
 <img src="./image.png" width="640">
 
