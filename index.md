@@ -82,3 +82,8 @@ List the updates by the given product version.
 ```markdown
 ./rex.sh updates -p IS_5.2.0
 ```
+### Source Code
+```markdown
+https://github.com/prabath/wso2is-repo-explorer
+```markdown
+
