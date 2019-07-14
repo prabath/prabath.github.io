@@ -1,4 +1,4 @@
 theme: jekyll-theme-slate
 title: rEx 
 description: Repo Explorer (rEx) for Identity Server (IS)
-repository: https://github.com/prabath/wso2is-repo-explorer
+repository: "prabath/wso2is-repo-explorer"
