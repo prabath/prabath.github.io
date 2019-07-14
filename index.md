@@ -1,8 +1,6 @@
 ## Repo Explorer (rEx) for Identity Server
 
-You can use the [editor on GitHub](https://github.com/prabath/rexis.github.io/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
-
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+WSO2 Identity Server is 100% Open Source!. We maintain product source code under two GitHub organizations: wso2 and wso2-extensions. These two GitHub organizations carry code related to all WSO2 products, with hundreds of repositories. Sometimes it's hard to find, which jar file comes from which repo. If you would like to contribute to the product, please check this git repo explorer (rEx).
 
 ### Markdown
 
