@@ -11,6 +11,9 @@ WSO2 Identity Server is 100% Open Source!. We maintain product source code under
 :\> wget https://github.com/prabath/wso2is-repo-explorer/raw/master/rex.sh
 :\> chmod +x rex.sh
 ```
+### Updates
+
+The tool will detect any updates and will automatically install them.
 
 ### Usage 
 
@@ -76,30 +79,4 @@ List the updates by the given product version.
 
 ```markdown
 \> ./rex.sh updates -p IS_5.2.0
-```
-
-### TODOs
-
-Find the git repo, by the given name and the product version.
-
-```markdown
-\> ./rex.sh find 5.8.0/org.wso2.carbon.identity.authenticator.mutualssl
-```
-
-List out all Identity Server repos related to the provided product version.
-
-```markdown
-\> ./rex.sh list version 5.8.0
-```
-
-Clone all Identity Server repos related to the provided product version.
-
-```markdown
-\> ./rex.sh clone version 5.8.0
-```
-
-Spin up the web console
-
-```markdown
-\> ./rex.sh serve
 ```
