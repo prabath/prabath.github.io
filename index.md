@@ -1,4 +1,4 @@
-# Happy rExing!
+# Happy rEx*ing*!
 
 [WSO2 Identity Server](https://wso2.com/identity-and-access-management/) is 100% open source!. The product maintains the source code under two GitHub organizations: [wso2](https://github.com/wso2) and [wso2-extensions](https://github.com/wso2-extensions). These two GitHub organizations carry code related to all WSO2 products, with hundreds of repositories. Sometimes it's hard to find, which jar file comes from which repo. We built rEx to address that concern.
 
