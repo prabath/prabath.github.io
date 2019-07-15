@@ -37,6 +37,8 @@ Report any issues: [https://github.com/prabath/wso2is-repo-explorer/issues](http
 
 ## Usage 
 
+### Repository Operations 
+
 Clones all Identity Server related repositories. This is not a required step to run other commands.
 
 ```markdown
@@ -52,6 +54,7 @@ Updates all Identity Server related repositories. If there are any new repos, th
 ```markdown
 ./rex.sh update
 ```
+### Search Operations 
 
 Finds the git repo(s), by the given name. You can do this, even without cloning all repos. The -c option will narrow down the search results for the given component name (or jar file name without version)
 
@@ -74,6 +77,7 @@ Finds the git repo(s), by the given name. You can do this, even without cloning 
 ```markdown
 ./rex.sh find samlsso
 ```
+### Product Updates (Patches) 
 
 Lists the git repo(s), along with all the corresponding updates since IS 5.2.0. The product updates are provided via WSO2 Update Manager ([WUM](https://wso2.com/updates/wum)). These updates are not open source and provided only to the WSO2 customers and trial users. This tool does not provide any updates - but simply uses the publicly available metadata via the WUM tool to generate some useful information.
 
