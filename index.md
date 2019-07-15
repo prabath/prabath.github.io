@@ -23,7 +23,7 @@ There are three components need to be updated. The rex.sh - will have minimal up
 The tool will detect all the updates and will automatically install them.
 
 ```markdown
-Last indexed at Sun Jul 14 23:59:41 PDT 2019
+Last indexed at Mon Jul 15 00:10:21 PDT 2019
 ```
 
 ## Community
