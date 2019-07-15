@@ -4,7 +4,6 @@
 
 <img src="./image.png" width="640">
 
-
 ## Setup
 
 Step-1: The tool relies on Docker, so make sure you have Docker running in your local environment.
@@ -25,7 +24,11 @@ The tool will detect all the updates and will automatically install them.
 ```markdown
 Last indexed at Mon Jul 15 00:10:21 PDT 2019
 ```
+The following command updates metadata related to all Identity Server repos. Usually you do not need to do it manually, as the tool detects any new updates and automatically updates the indexes.
 
+```markdown
+./rex.sh update-index
+```
 ## Community
 
 rEx is an open source project (under Apache 2.0 lincense) and any contributions from the wider community is much appreciated. We welcome contribution from the community. Please check the source code at [https://github.com/prabath/wso2is-repo-explorer](https://github.com/prabath/wso2is-repo-explorer)
@@ -70,12 +73,6 @@ Finds the git repo(s), by the given name. You can do this, even without cloning 
 
 ```markdown
 ./rex.sh find samlsso
-```
-
-Updates metadata related to all Identity Server repos. Usually you do not need to do it manually, the tool detects any new updates and automatically updates the indexes.
-
-```markdown
-./rex.sh update-index
 ```
 
 Lists the git repo(s), along with all the corresponding updates since IS 5.2.0. The product updates are provided via WSO2 Update Manager ([WUM](https://wso2.com/updates/wum)). These updates are not open source and provided only to the WSO2 customers and trial users. This tool does not provide any updates - but simply uses the publicly available metadata via the WUM tool to generate some useful information.
