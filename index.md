@@ -13,7 +13,7 @@ Step-2: Copy rex.sh to a directory where you want to maintain Identity Server gi
 wget https://github.com/prabath/wso2is-repo-explorer/raw/master/rex.sh
 chmod +x rex.sh
 ```
-Also please make sure that you have Internet access, while running the tool. To run the tool with no Internet connection, after the first run, set the REX_ONLONE environment variable to false. The **clone**, **list**, **update**, **update-index** functions are not availble for the offline mode. By defeault REX_ONLONE is set to true - and the tool to function you must run it at least once in the online mode.
+Also please make sure that you have Internet access, while running the tool. To run the tool with no Internet connection, after the first run, set the REX_ONLONE environment variable to false. The **clone**, **list**, **update**, **update-index** functions are not availble for the offline mode. By defeault REX_ONLONE is set to true - and **the tool to function you must run it at least once in the online mode**.
 ```markdown
 export REX_ONLINE=false
 ```
