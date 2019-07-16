@@ -21,7 +21,7 @@ export REX_ONLINE=false
 
 There are three components need to be updated. The rex.sh - will have minimal updates. Any changes to the core of the tool would require updating the Docker image. The indexes will get updated every four hours.
 
-The tool will detect all the updates and will automatically install them.
+The tool will detect all the updates and will automatically install them (only if the tool is running under online mode).
 
 ```markdown
 Last indexed at Mon Jul 15 14:17:17 PDT 2019
