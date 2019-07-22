@@ -17,7 +17,7 @@ Also please make sure that you have Internet access, while running the tool. To 
 ```markdown
 export REX_ONLINE=false
 ```
-By default the output on the console is in color. Sometimes when you want to redirect the output to a file,its useful to remove color. Set the REX_COLOT environment variable to false to turn off color.
+By default the output on the console is in color. Sometimes when you want to redirect the output to a file, it is useful to remove color. Set the REX_COLOR environment variable to false to turn off color.
 
 ```markdown
 export REX_COLOR=false
