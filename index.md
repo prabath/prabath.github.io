@@ -17,6 +17,11 @@ Also please make sure that you have Internet access, while running the tool. To 
 ```markdown
 export REX_ONLINE=false
 ```
+By default the output on the console is in color. Sometimes when you want to redirect the output to a file,its useful to remove color. Set the REX_COLOT environment variable to false to turn off color.
+
+```markdown
+export REX_COLOR=false
+```
 ## Updates
 
 There are three components need to be updated. The rex.sh - will have minimal updates. Any changes to the core of the tool would require updating the Docker image. The indexes will get updated every four hours.
