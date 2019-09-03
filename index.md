@@ -29,7 +29,7 @@ There are three components need to be updated. The rex.sh - will have minimal up
 The tool will detect all the updates and will automatically install them (only if the tool is running under online mode).
 
 ```markdown
-Last indexed at Tue Sep 3 09:26:17 PDT 2019
+Last indexed at Tue Sep 3 13:30:51 PDT 2019
 ```
 The following command updates metadata related to all Identity Server repos. Usually you do not need to do it manually, as the tool detects any new updates and automatically updates the indexes.
 
