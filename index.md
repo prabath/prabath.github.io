@@ -10,7 +10,7 @@ Step-1: The tool relies on Docker, so make sure you have Docker running in your 
 
 Step-2: Copy rex.sh to a directory where you want to maintain Identity Server git repositories. Alway better to keep this readonly. 
 ```markdown
-wget https://github.com/prabath/wso2is-repo-explorer/raw/master/rex.sh
+wget https://raw.githubusercontent.com/prabath/wso2is-repo-explorer/master/rex.sh
 chmod +x rex.sh
 ```
 Also please make sure that you have Internet access, while running the tool. To run the tool with no Internet connection, after the first run, set the REX_ONLONE environment variable to false. The **clone**, **list**, **update**, **update-index** functions are not availble for the offline mode. By defeault REX_ONLONE is set to true - and **the tool to function you must run it at least once in the online mode**.
